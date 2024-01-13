@@ -20,21 +20,7 @@ Speech Recognition works with methods and technologies to enable recognition and
 For computers, understanding numbers is easier than understanding words and speech. 
 When the first few speech recognition systems were being created, IBM Shoebox was the first to get decent success with understanding and responding to a select few English words. 
 Today, we have a number of successful examples which understand myriad languages and respond in the correct dialect and language as the human interacting with it. Most of this success is through the SpeechRecognition library.
-
-
-Here, A **popular Google API** is used:
-
-import speech_recognition as sr
-def speech_to_text(self):
-    recognizer = sr.Recognizer()
-    with sr.Microphone() as mic:
-         print("listening...")
-         audio = recognizer.listen(mic)
-    try:
-         self.text = recognizer.recognize_google(audio)
-         print("me --> ", self.text)
-    except:
-         print("me -->  ERROR")
+So here, A **popular Google API** is used.
 
 The first task that our chatbot must work for is the speech to text conversion. Basically, this involves converting the voice or audio signals into text data. 
 In summary, the chatbot actually ‘listens’ to your speech and compiles a text file containing everything it could decipher from your speech. 

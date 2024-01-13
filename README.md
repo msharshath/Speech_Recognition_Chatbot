@@ -10,15 +10,15 @@ This makes it challenging to integrate these chatbots with NLP-supported speech-
 
 **Installing Packages required to Build Speech Recognition Chatbot**
 
-pip install SpeechRecognition  #(3.8.1)
+**pip install SpeechRecognition  #(3.8.1)**
 
-pip install gTTS  #(2.2.3)
+**pip install gTTS  #(2.2.3)**
 
-pip install transformers  #(4.11.3)
+**pip install transformers  #(4.11.3)**
 
-pip install tensorflow #(2.6.0, or pytorch)
+**pip install tensorflow #(2.6.0, or pytorch)**
 
-pip install pyaudio
+**pip install pyaudio**
 
 NLP or Natural Language Processing has a number of subfields as conversation and speech are tough for computers to interpret and respond to. One such subfield of NLP is Speech Recognition. 
 Speech Recognition works with methods and technologies to enable recognition and translation of human spoken languages into something that the computer or AI chatbot can understand and respond to.
